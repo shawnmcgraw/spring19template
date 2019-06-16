@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spring OneNine Theme</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/menu.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site-container">
+        <div class="header-container">
+            <!-- menu - sticky bar on top - hamburger for small screens -->
+            <div class="header-nav">
+                    <a href="#default" class="logo">CompanyLogo</a>
+                    <!-- hamburger -->
+                    <div class="burger-container" onclick="xToggler(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                        <nav class="nav-right hidden" id="menu-links">
+                        <a class="active" href="#home">Home</a>
+                        <a href="#products">Products</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                        </nav>
+            </div>
+            <!-- bg-image with overlay and possible blur -->
+            <header class="hero flex-center">
+                <h1>Company, Brand, or Logo Here</h1>
+                <h3>Why we're different and great!</h3>
+            </header>
+        </div>
+
+        <!-- description and firs c2a -->
+        <div>
+            <section class="flex-center" id="description">
+                <h2 class="content-title">Description of Brand or Service</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odio quidem alias eos in velit, nihil itaque! Animi inventore modi doloremque corrupti reprehenderit maxime fugiat ea sapiente amet facilis praesentium in ab necessitatibus porro illo unde pariatur vitae autem nesciunt beatae laudantium, deserunt corporis quam numquam. Id adipisci autem sunt.</p>
+                <button class="btn-dark" id="c2a-1">Learn More</button>
+            </section> 
+        </div>
+
+        <!-- p cards -->
+        <div>
+            <section>
+                <h2>Products/Services</h2>
+                <div class="flex-container">
+                    <div class="card flex-item" id="p-card-1">
+                        <img src="./images/adult-cactus-camera-297755.jpg" alt="Photo by rawpixel.com from Pexels">
+                        <h3>First Prod/Svc</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>Call for price.</p>
+                        <button class="card-btn" id="p-card-1-c2a">Learn More</button>
+                    </div>
+                    <div class="card flex-item" id="p-card-2">
+                        <img src="./images/car-charging-communication-33488.jpg" alt="car charging phone map">
+                        <h3>Second Prod/Svc</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        <p>Call for price.</p>
+                        <button class="card-btn" id="p-card-2-c2a">Learn More</button>
+                    </div>
+                    <div class="card flex-item" id="p-card-3">
+                        <img src="./images/adventure-baltic-sea-car-21014.jpg" alt="Photo by Mihis Alex from Pexels ">
+                        <h3>Third Prod/Svc</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Call for price.</p>
+                        <button class="card-btn" id="p-card-3-c2a">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- footer -->
+        <div>
+            <footer>
+                <div class="flex-center">
+                    <span class="flex-item">
+                        <strong>Address:</strong> <br>
+                        123 Main St. <br>
+                        Anywhere, OH 45123
+                    </span> 
+                    <hr>
+                    <span class="flex-itme">
+                        <strong>Telephone:</strong> <a href="tel:_+11235559876">123-555-9876</a> 
+                    </span>
+                    <hr>
+                    <div id="social-container">
+                        <span class="flex-item"><a href="#"><img src="images/iconmonstr-facebook-4.svg" alt="facebook icon" id="fbicon"></a></span>
+                        <span class="flex-item"><a href="#"><img src="images/iconmonstr-twitter-4.svg" alt="twitter icon" id="twittericon"></a></span>
+                        <span class="flex-item"><a href="#"><img src="images/iconmonstr-linkedin-4.svg" alt="linkedin icon" id="linkedinicon"></a></span>
+                        <span class="flex-item"><a href="#"><img src="images/iconmonstr-pinterest-4.svg" alt="pinterest icon" id="pinticon"></a></span>
+                        <span class="flex-item"><a href="#"><img src="images/iconmonstr-instagram-14.svg" alt="instagram icon" id="instaicon"></a></span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
